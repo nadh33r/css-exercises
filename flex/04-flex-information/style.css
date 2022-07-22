@@ -10,7 +10,33 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
 }
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  /* border: black; */
+  /* border-style: dotted; */
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  /* border: black; */
+  /* border-style: dotted; */
+  align-items: center;
+  justify-content: center;
+}
+.text{
+  justify-content: center;
+  align-items: center;
+  /* border: black; */
+  /* border-style: dotted; */
+  text-align: center;
+}
+
+
 
 /* do not edit this footer */
 .footer {
